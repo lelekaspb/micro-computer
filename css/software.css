@@ -48,6 +48,9 @@ footer {
   margin-top: 2em;
 }
 
+.active {
+  text-decoration: underline;
+}
 
 /*grid prorerties*/
 header ul {

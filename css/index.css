@@ -21,6 +21,11 @@ a:visited {
 a:hover {
   color: #abab9a; 
 }
+/* 
+.active {
+  color: red;
+  text-decoration: underline;
+} */
 
 footer p {
   text-align: center;
@@ -52,6 +57,10 @@ aside {
 
 p span {
   color: red;
+}
+
+.active {
+  text-decoration: underline;
 }
 
 /* grid properties*/

@@ -52,6 +52,10 @@ aside {
   margin-left: 3em;
 }
 
+.active {
+  text-decoration: underline;
+}
+
 /* grid properties*/
 
 body {
@@ -77,10 +81,9 @@ footer {
   grid-area: fo;
 }
 
-main {
+ main {
   display: grid;
-
-}
+} 
 
 section {
   grid-column: repeat();
