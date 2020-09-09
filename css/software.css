@@ -38,10 +38,9 @@ header {
 img {
   max-width: 100%;
   height: auto;
-  align-content: center;
 }
 
-li, h2, h1 {
+li, h2, h1, h3 {
   text-transform: capitalize;
 }
 
@@ -75,9 +74,6 @@ main {
   grid-area: ma;
 }
 
-/* figure {
-  grid-area: fig;
-} */
 
 footer {
   grid-area: fo;
@@ -90,7 +86,14 @@ main {
   grid-template-rows: min-content min-content min-content min-content; 
 }
 
+
 section {
   grid-column: repeat();
   margin-left: 10px;
 } 
+
+h2 {
+  grid-column: 1/ 4;
+  margin: 10px 10px;
+}
+
