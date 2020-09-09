@@ -57,6 +57,9 @@ h2 {
   text-decoration: underline;
 }
 
+article {
+  margin-left: 10px;
+}
 
 /* grid properties*/
 header ul {
@@ -94,7 +97,3 @@ section {
   grid-template-rows: min-content min-content; 
 }
 
-article {
-  grid-column: repeat();
-  margin-left: 10px;
-}
