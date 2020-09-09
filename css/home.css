@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@400;700&display=swap');
+
+body {
+  margin: 0 2em;
+  font-family: 'Gayathri', 'Verdana', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: #30211a;
+}
+
+a:visited {
+  color:  #30211a;
+}
+
+a:hover {
+  color: #abab9a; 
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+body {
+  background-color: cornsilk;
+  color: #30211a;;
+}
+
+header {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+li, h2, h1 {
+  text-transform: capitalize;
+}
+
+aside {
+  font-size: 1.2em;
+  margin-right: 3em;
+}
+
+p span {
+  color: red;
+}
+
+/* grid properties*/
+
+body {
+  display: grid;
+  grid-template-areas: 
+      "hd hd hd hd"
+      "fig fig ma ma"
+      "as as ma ma"
+      "fo fo fo fo";
+      grid-column-gap: 20px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header {
+  grid-area: hd;
+}
+
+main {
+  grid-area: ma;
+}
+
+figure {
+  grid-area: fig;
+}
+
+footer {
+  grid-area: fo;
+}
+
+aside {
+  grid-area: as;
+}
+
+
+main {
+  display: grid;
+  grid-column-gap: 1em;
+}
+
+h2 {
+  grid-column: 1/ span 2;
+  margin: 10px 0;
+}
+
+ section {
+  grid-column: repeat();
+  margin-left: 10px;
+} 
+
+
+header ul {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, 320px);
+}
