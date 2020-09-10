@@ -83,7 +83,7 @@ footer {
 main {
   display: grid;
   grid-column-gap: 4em;
-  grid-template-columns: 1fr 1.8fr 1.5fr; 
+  grid-template-columns: 1.3fr 1.6fr 1.5fr; 
   grid-template-rows: min-content min-content min-content min-content; 
 }
 
