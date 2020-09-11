@@ -99,3 +99,25 @@ header ul {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-evenly;
 }
+
+
+/* media queries */
+
+
+@media only screen and (max-width: 899px) {
+  main {
+    display: block
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  body {
+    margin: 0px;
+  }
+  .grid {
+    display: block;
+  }
+}
+
+
+

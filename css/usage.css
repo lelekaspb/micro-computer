@@ -60,9 +60,6 @@ section {
   margin-left: 10px;
 } 
 
-/* div {
-  margin-left: 10px;
-}   */
 
 /* grid properties*/
 
@@ -120,7 +117,21 @@ header ul {
   justify-content: space-evenly;
 }
 
+/* media queries */
+@media only screen and (max-width: 899px) {
+  main {
+    display: block;
+  }
+}
 
-
-
- 
+@media only screen and (max-width: 599px) {
+  body {
+    margin: 0px;
+  }
+  .grid {
+    margin-left: 10px;
+  }
+  .grid {
+    display: block;
+  }
+}

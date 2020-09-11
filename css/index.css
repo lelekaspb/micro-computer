@@ -125,3 +125,34 @@ header ul {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-evenly;
 }
+
+/* media queries */
+@media only screen and (max-width: 899px) {
+  body {
+    grid-template-areas:  "hd hd hd hd"
+    "hOne hOne hOne hOne"
+    "fig fig fig fig"
+    "as as as as"
+    "ma ma ma ma"
+    "fo fo fo fo";
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  body {
+    grid-template-areas:  "hd hd hd hd"
+    "hOne hOne hOne hOne"
+    "fig fig fig fig"
+    "as as as as"
+    "ma ma ma ma"
+    "fo fo fo fo";
+  }
+
+  body {
+    margin-left: 10px;
+  }
+
+  main {
+    display: block;
+  }
+}

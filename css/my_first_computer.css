@@ -103,3 +103,20 @@ header ul {
   justify-content: space-evenly;
 }
 
+
+/* media queries */
+@media only screen and (max-width: 899px) {
+  section {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  body {
+    margin: 0px;
+  }
+  section {
+    display: block;
+  }
+}
+
