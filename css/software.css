@@ -116,6 +116,12 @@ header ul {
   }
   .grid {
     display: block;
+  }  
+  header ul {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
   }
 }
 

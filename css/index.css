@@ -127,7 +127,7 @@ header ul {
 }
 
 /* media queries */
-@media only screen and (max-width: 899px) {
+  @media only screen and (max-width: 899px) {
   body {
     grid-template-areas:  "hd hd hd hd"
     "hOne hOne hOne hOne"
@@ -155,4 +155,11 @@ header ul {
   main {
     display: block;
   }
-}
+
+  header ul {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+  }
+}  
